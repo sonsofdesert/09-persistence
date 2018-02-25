@@ -17,16 +17,15 @@
 
 #### Configuration
 * `package.json`
-* `.eslintrc`
 * `.gitignore`
 * `README.md`
   * your `README.md` should include detailed instructions on how to use your API
   * this should include documentation on how to access your API endpoints
 
 #### Feature Tasks
-* continue working on your vanilla REST API
-* refactor your routes to be contained in a separate module (ex: `route/resource-route.js`)
-* refactor your `res` messages & status codes to be contained in a separate module (ex: `response.js`)
-* refactor the `storage.js` module to use file system persistence
-  * use the `fs` module to create and read the associated data files
-  * the name of the file should contain the related resource id
+* Continue working on your vanilla REST API
+* Refactor your routes to be contained in a separate module (ex: `route/resource-route.js`)
+* Refactor your `res` messages & status codes to be contained in a separate module (ex: `response.js`)
+* Refactor the `storage.js` module to use file system persistence
+  * Use the `fs` module to create and read the associated data files
+  * The name of the file should contain the related resource id
